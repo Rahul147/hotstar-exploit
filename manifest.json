@@ -1,0 +1,17 @@
+{
+    "name": "FREE IPL",
+    "version": "1.0",
+    "description": "A proof of concept chrome extension to beat hotstar's guard against watching IPL for free",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "browser_action": {}
+}
